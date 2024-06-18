@@ -53,7 +53,7 @@
     </nav><!-- .nav-menu -->
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+<!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex flex-column justify-content-center">
   <div class="container" data-aos="zoom-in" data-aos-delay="100">
     <div class="row align-items-center">
@@ -131,28 +131,57 @@
           font-size: 1rem; /* Adjust font size for paragraph content */
           line-height: 1.6; /* Improve line height for better readability */
         }
+        .skills-content .skills-list {
+          list-style: none;
+          padding-left: 0;
+        }
+        .skills-content .skills-list li {
+          position: relative;
+          padding-left: 20px;
+          margin-bottom: 8px;
+        }
+        .skills-content .skills-list li:before {
+          content: "\2022"; /* Use bullet symbol for list items */
+          font-size: 1.2rem;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #3498db; /* Adjust color of bullet */
+        }
       </style>
       <h3>Programming Languages</h3>
-      <p>Python, R, C, C++, JavaScript, SQL, HTML, CSS.</p>
+      <ul class="skills-list">
+        <li>Python, R, C, C++, JavaScript, SQL, HTML, CSS.</li>
+      </ul>
       
       <h3>Data Science Tools</h3>
-      <p>Tableau, Streamlit, Power BI, Matplotlib, Seaborn, Looker.</p>
+      <ul class="skills-list">
+        <li>Tableau, Streamlit, Power BI, Matplotlib, Seaborn, Looker.</li>
+      </ul>
       
       <h3>Database Stack</h3>
-      <p>MySQL, Sqlite3, Hive, Hadoop, Google Big Query, MongoDB, Cassandra.</p>
+      <ul class="skills-list">
+        <li>MySQL, Sqlite3, Hive, Hadoop, Google Big Query, MongoDB, Cassandra.</li>
+      </ul>
       
       <h3>AI and Machine Learning</h3>
-      <p>Pandas, NumPy, NLTK, TensorFlow, Torch, RoboFlow, RStudio.</p>
+      <ul class="skills-list">
+        <li>Pandas, NumPy, NLTK, TensorFlow, Torch, RoboFlow, RStudio.</li>
+      </ul>
       
       <h3>Other Tools and Frameworks</h3>
-      <p>React, Redux, JIRA, Notion, Lucid Charts, Omni CMS, Django, Git and GitHub.</p>
+      <ul class="skills-list">
+        <li>React, Redux, JIRA, Notion, Lucid Charts, Omni CMS, Django, Git and GitHub.</li>
+      </ul>
       
       <h3>Other Softwares and Frameworks</h3>
-      <p>RaspberryPi, Heroku, AWS (EC2, S3, Dynamo etc), Wordpress, Bootstrap, Google Applications, Microsoft Excel and MS Office.</p>
+      <ul class="skills-list">
+        <li>RaspberryPi, Heroku, AWS (EC2, S3, Dynamo etc), Wordpress, Bootstrap, Google Applications, Microsoft Excel and MS Office.</li>
+      </ul>
     </div>
   </div>
 </section><!-- End Hero -->
-
 
 <main id="main">
 <!-- ======= Resume Section ======= -->
