@@ -1,9 +1,9 @@
 import os
 
 # Paths to the folders containing certification images
-fulls_folder = 'C:/Users/mahav/OneDrive/Desktop/Portfolio/images/fulls'
-thumbs_folder = 'C:/Users/mahav/OneDrive/Desktop/Portfolio/images/thumbs'
-html_file = '"C:/Users/mahav/OneDrive/Desktop/Portfolio/certification.html"'
+fulls_folder = '/workspaces/docmhvr.github.io/images/fulls'
+thumbs_folder = '/workspaces/docmhvr.github.io/images/thumbs'
+html_file = '/workspaces/docmhvr.github.io/certification.html'
 
 # Function to generate HTML for the images
 def generate_html(fulls_folder, thumbs_folder):
@@ -81,7 +81,7 @@ def generate_html(fulls_folder, thumbs_folder):
 html_content = generate_html(fulls_folder, thumbs_folder)
 
 # Write the HTML to a file
-with open("C:/Users/mahav/OneDrive/Desktop/Portfolio/new.html", 'w') as f:
+with open("/workspaces/docmhvr.github.io/certification.html", 'w') as f:
     f.write(html_content)
 
 print("HTML file generated successfully.")
