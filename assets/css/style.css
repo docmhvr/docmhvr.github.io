@@ -457,6 +457,7 @@ section {
   height: 50px;
   display: block;
   background: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .skills .progress .skill {
