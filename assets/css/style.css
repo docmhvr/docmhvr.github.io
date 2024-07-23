@@ -380,7 +380,7 @@ section {
 }
 
 .about .content ul {
-  list-style: none;
+  list-style-type: disc;
   padding: 0;
 }
 
