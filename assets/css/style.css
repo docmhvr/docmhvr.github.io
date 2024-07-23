@@ -454,6 +454,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
+  padding: 5px;
   height: 50px;
   display: block;
   background: none;
